@@ -2,10 +2,10 @@
 nl:
   renders:
     and_x_more_prefix: En nog
-    and_x_more_suffix: more
+    and_x_more_suffix: meer
     calendars:
-      no_upcoming_events: No upcoming events
-      no_events_today: No events today
+      no_upcoming_events: Geen komende afspraken
+      no_events_today: Geen afspraken vandaag
     days_left_year:
       title: Dagen over dit jaar
       days_passed: Verstreken dagen
@@ -27,59 +27,59 @@ nl:
         full_moon: Volle Maan
         waning_gibbous: Afnemende Maan
         third_quarter: Laatste Kwartier
-        waning_crescent: Asgrauwe Maan
+        waning_crescent: Afnemende Maansikkel
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo Weer
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Binnentemp.
+      indoor_temp_short: Binnen
+      indoor_humidity: Vochtigheid Binnen
+      indoor_humidity_short: Vocht. Binnen
+      outdoor_humidity: Vochtigheid Buiten
+      outdoor_humidity_short: Vocht. Buiten
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
+      pressure: Luchtdruk
+      noise: Geluid
       min_max: Min/Max
-      feels: Feels
-      rain: Rain
+      feels: Voelt als
+      rain: Regen
       wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
+      gust: Windstoot
+      default_station_name: Netatmo-station
+      default_outdoor_module: Buitentemp.
+      default_indoor_module: Binnen
+      trends_title: "Trends %{metric}"
       trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      temperature_trends: Temperatuurtrends
+      temperature_trends_short: Temp. Trends
+      outdoor_now: Buiten Nu
+      indoor_now: Binnen Nu
+      now: Nu
+      low_high_24h: 24u Min / Max
+      average_24h: 24u Gemiddelde
+      outdoor: Buiten
+      indoor: Binnen
+      rain_gauge_not_connected: Regenmeter niet verbonden
+      wind_gauge_not_connected: Windmeter niet verbonden
+      no_rain_gauge: Geen regenmeter
+      no_wind_gauge: Geen windmeter
+      add_module_hint: Voeg de optionele %{module}-module toe om deze gegevens te zien
+      range_24h: 24u Bereik
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
-        indoor_module_missing: Selected indoor module not found. Please reconfigure in settings.
+        missing_access_token: Toegangstoken ontbreekt. Verbind je Netatmo-account opnieuw.
+        no_station_selected: Geen weerstation geselecteerd. Kies een station in de instellingen.
+        connection_failed: Kan geen verbinding maken met het Netatmo-station. Controleer je internetverbinding.
+        data_retrieval_failed: Kan de weergegevens niet ophalen. Probeer het later opnieuw.
+        session_expired: Sessie verlopen. Verbind je Netatmo-account opnieuw in de instellingen.
+        indoor_module_missing: Geselecteerde binnenmodule niet gevonden. Stel deze opnieuw in via de instellingen.
     parcel:
       delivery_by: Levering door
       empty: Er zijn geen leveringen
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Parcel API-fout
+        http: HTTP-fout %{code}
+        internal: Interne fout
       filter_modes:
         active:
           one: Actieve Levering
@@ -116,20 +116,20 @@ nl:
       max: Max
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Helder
+          cloudy: Bewolkt
+          foggy: Mistig
+          partly_cloudy: Deels Bewolkt
+          rain_likely: Regen Waarschijnlijk
+          rain_possible: Kans op Regen
+          snow: Sneeuw
+          snow_possible: Kans op Sneeuw
+          thunderstorms_likely: Onweer Waarschijnlijk
+          thunderstorms_possible: Kans op Onweer
+          very_light_rain: Zeer Lichte Regen
+          windy: Winderig
+          wintry_mix_likely: Winterse Neerslag Waarschijnlijk
+          wintry_mix_possible: Kans op Winterse Neerslag
       weatherapi:
         uv:
           low: Zwak
@@ -163,8 +163,8 @@ nl:
           day: Natte Sneeuw
           night: Natte Sneeuw
         - code: 1072
-          day: Ijzel
-          night: Ijzel
+          day: IJzel
+          night: IJzel
         - code: 1087
           day: Onweer
           night: Onweer
@@ -178,20 +178,20 @@ nl:
           day: Mist
           night: Mist
         - code: 1147
-          day: Ijzige mist
-          night: Ijzige mist
+          day: IJzige Mist
+          night: IJzige Mist
         - code: 1150
           day: Lichte Motregen
-          night: Licht Motregen
+          night: Lichte Motregen
         - code: 1153
           day: Motregen
           night: Motregen
         - code: 1168
-          day: Ijzel
-          night: Ijzel
+          day: IJzel
+          night: IJzel
         - code: 1171
-          day: Zware Ijzel
-          night: Zware Ijzel
+          day: Zware IJzel
+          night: Zware IJzel
         - code: 1180
           day: Lichte Regen
           night: Lichte Regen
@@ -211,11 +211,11 @@ nl:
           day: Zware Regen
           night: Zware Regen
         - code: 1198
-          day: Lichte Ijzel
-          night: Lichte Ijzel
+          day: Lichte IJzel
+          night: Lichte IJzel
         - code: 1201
-          day: Zware Ijzel
-          night: Zware Ijzel
+          day: Zware IJzel
+          night: Zware IJzel
         - code: 1204
           day: Lichte Natte Sneeuw
           night: Lichte Natte Sneeuw
@@ -241,8 +241,8 @@ nl:
           day: Zware Sneeuw
           night: Zware Sneeuw
         - code: 1237
-          day: Ijsregen
-          night: Ijsregen
+          day: IJsregen
+          night: IJsregen
         - code: 1240
           day: Lichte Regen
           night: Lichte Regen
@@ -265,11 +265,11 @@ nl:
           day: Zware Sneeuw
           night: Zware Sneeuw
         - code: 1261
-          day: Lichte Ijzel
-          night: Lichte Ijzel
+          day: Lichte IJzel
+          night: Lichte IJzel
         - code: 1264
-          day: Zware Ijzel
-          night: Zware Ijzel
+          day: Zware IJzel
+          night: Zware IJzel
         - code: 1273
           day: Onweer & Regen
           night: Onweer & Regen
@@ -283,43 +283,43 @@ nl:
           day: Onweer & Sneeuw
           night: Onweer & Sneeuw
     place_of_the_day:
-      title: Place of the Day
+      title: Plek van de Dag
       wikipedia_credit: Wikipedia CC BY-SA
       type: Type
-      population: Population
-      coordinates: Coordinates
-      founded: Founded
-      elevation: Elevation
-      area: Area
-      local_time: Local time
-      year_bc: "%{count} BC"
+      population: Inwoners
+      coordinates: Coördinaten
+      founded: Gesticht
+      elevation: Hoogte
+      area: Oppervlakte
+      local_time: Lokale tijd
+      year_bc: "%{count} v.Chr."
       metres: "%{count} m"
       square_km: "%{count} km²"
-      city: City
-      wonder: Wonder
+      city: Stad
+      wonder: Wereldwonder
     welcome:
       title: Welkom
       greeting: Hallo, %{name}
       greeting_blank: Hallo
     homey:
-      'on': 'On'
-      'off': 'Off'
+      'on': Aan
+      'off': Uit
       offline: Offline
-      all_offline: Every device is offline
+      all_offline: Alle apparaten zijn offline
       all_offline_hint:
-        one: One device is unreachable
-        other: All %{count} devices are unreachable
+        one: Eén apparaat is onbereikbaar
+        other: Alle %{count} apparaten zijn onbereikbaar
       batteries_healthy:
-        one: Battery
-        other: Batteries
+        one: Batterij
+        other: Batterijen
       batteries_low:
-        one: Needs a cell
-        other: Need a cell
-      no_batteries: No batteries to watch
-      no_batteries_hint: Nothing here reports a battery level
+        one: Batterij vervangen
+        other: Batterijen vervangen
+      no_batteries: Geen batterijen om op te volgen
+      no_batteries_hint: Geen enkel apparaat meldt hier een batterijniveau
       insights: Insights
-      no_chart: No chart
-      no_insights: No series pushed yet
-      no_insights_hint: A Homey app can push an Insights log to chart here
-      no_devices: Waiting for your first devices
-      no_devices_hint: They appear after the first push or cloud sync
+      no_chart: Geen grafiek
+      no_insights: Nog geen gegevensreeksen ontvangen
+      no_insights_hint: Een Homey-app kan hier een Insights-log naartoe sturen om als grafiek te tonen
+      no_devices: Wachten op je eerste apparaten
+      no_devices_hint: Ze verschijnen na de eerste push of cloudsynchronisatie
